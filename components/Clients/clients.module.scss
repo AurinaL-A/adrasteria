@@ -1,0 +1,82 @@
+.main{
+  position: relative;
+  background-color: #f2f3f8;
+  background: linear-gradient(to bottom, #f2f3f8, rgba(255, 255, 255, 0.2));
+
+  .background{
+    position: absolute;
+    z-index: -1; /* Отправить на задний план */
+    top: 270px;
+    left: 600px;
+  }
+.container {
+    max-width: 1820px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    .clients{
+      padding-top: 54px;
+      padding-bottom: 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+  .title{
+    max-width: 330px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 94px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #142251;
+  }
+  .text{
+    max-width: 355px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #989eb1;
+  }
+  .icon_card{
+    position: relative;
+    left: 260px;
+    margin: 20px;
+    background: #f2f3f8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 136px;
+    height: 136px;
+  }
+  .cards{
+    display: flex;
+    max-width: 910px;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 40px;
+  }
+  .card{
+    cursor: pointer;
+    background: #fff;
+    border-radius: 44px;
+    width: 438px;
+    height: 438px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text_card{
+    padding: 44px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #989eb1;
+  }
+}
+}

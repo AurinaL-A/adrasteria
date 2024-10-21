@@ -1,0 +1,142 @@
+.container {
+    max-width: 1820px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+.services{
+    width: 100%;
+    background: #f3f6f9;
+    padding: 100px 80px;
+    border-radius: 50px;
+    margin-bottom: 45px;
+    
+  }
+  .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 94px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #142251;
+  }
+  .text{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #989eb1;
+    max-width: 225px;
+  }
+  .btns_slider{
+    border-radius: 100px;
+    padding: 24px;
+    width: 169px;
+    height: 84px;
+    border: none;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .slider__next{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  .slider__prev{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  .slider__title{
+    max-width: 250px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+    color: #142251;
+  }
+  .info_item{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+  }
+  .slider__text{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #142251;
+  }
+
+  .slider {
+    padding-top: 45px;
+
+    width: 100%; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider__inner {
+    gap: 20px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider__item {
+    width: 425px; 
+    height: 550px;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 40px;
+    padding: 10px;
+  }
+  .slider__button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #142251;
+    border-radius: 12px;
+    padding: 24px 30px;
+    width: 85%;
+    height: 71px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #fff;
+    border: none;
+  }
+  
+  .slider__item:hover .slider__button {
+    opacity: 1;
+  }
+  
+  .btns_slider{
+    display: flex;
+    align-items: center;
+  }
+
+  
+}

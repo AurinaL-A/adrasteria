@@ -1,4 +1,7 @@
 .footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-top: 1px solid #989eb1;
     .container{
         max-width: 1820px;
         margin: 0 auto;
@@ -8,7 +11,9 @@
         display: flex;
         height: 95px;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between;  
+        
+      
     }
     .footer__contact{
         display: flex;
