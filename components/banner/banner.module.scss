@@ -1,0 +1,107 @@
+.container {
+    max-width: 1820px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+  }
+  .banner_title{
+    max-width: 650px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 85%;
+    letter-spacing: -0.04em;
+    color: #142251;
+  }
+  .banner_title_span{
+    color: #989eb1;
+  }
+  .banner_text{
+    
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #989eb1;
+  }
+  .btn__banner{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 368px;
+    border-radius: 12px;
+    padding: 24px;
+    background: rgba(33, 56, 135, 0.06);
+    border: none;
+
+  }
+  .btn__banner_text{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #213887;
+  }
+  .banner_imgs{
+    position: relative;
+  }
+
+  .img_bootom{
+    position: absolute;
+      top: -80px;
+      right: 0;
+
+      z-index: -1; /* Отправить на задний план */
+  }
+  .btn_down{
+    border-radius: 100%;
+    fill: #f2f3f8;
+    width: 54px;
+    height: 54px;
+    border: none;
+    
+  }
+  .banner_down{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 73px;
+  }
+  .banner__contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background: #f2f3f8;
+    border-radius: 100px;
+    padding: 16px 24px;
+    width: 401px;
+    height: 54px;
+}
+.banner_contact_ms{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner_contact_text{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: #142251;
+}
+}

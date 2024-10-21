@@ -1,0 +1,65 @@
+.footer{
+    .container{
+        max-width: 1820px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .footer__row{
+        display: flex;
+        height: 95px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer__contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #afb4c4;
+        border-radius: 100px;
+        padding: 30px 40px;
+        width: 870px;
+        height: 94px;
+    }
+    .footer_contact_ms{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    .footer_contact_text{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        text-transform: lowercase;
+        color: #142251;
+    }
+    .confidential{
+        cursor: pointer;
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: -0.04em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #989eb1;
+    }
+    .design{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: -0.04em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #213887;
+    }
+    .copy{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #989eb1;
+    }
+}
