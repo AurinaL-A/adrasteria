@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+    margin: 0;
+    padding: 0;
+    .container{
+        max-width: 1820px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .header__row{
+        display: flex;
+        align-items: center;
+        height: 108px;
+        justify-content: space-between;
+        border-bottom: 1px solid #ced2e0;
+    }
+    .menu{
+        display: flex;
+        gap: 32px;
+        font-family: var(--font-family);
+    }
+    .header_menu_text{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        color: #142251;
+    }
+    .btn__header{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border: none;
+        background-color: transparent;
+    }
+    .btn__header_text{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        color: #213887;
+    }
+}
